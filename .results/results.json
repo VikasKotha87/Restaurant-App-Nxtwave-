@@ -1,0 +1,204 @@
+{
+  "test_case_results": [
+    {
+      "test_case_id": "RJSCPLTJNZ_TEST_1",
+      "evaluation_result": "CORRECT",
+      "title": "When the Page is opened, an HTTP GET request should be made to the given dishesApiUrl to get the list of dishes",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPLTJNZ_TEST_2",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful, then the page should consist of an HTML heading element with text content as \"UNI Resto Cafe\" the value of the key \"restaurant_name\" received from the response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPLTJNZ_TEST_3",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful, then the page should consist of an HTML paragraph element with text content as \"My Orders\" in the Header",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPLTJNZ_TEST_4",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful, then the page should consist of HTML button elements to display the list of menu categories with text content of each button corresponding to the value of the key \"menu_category\" received from the response within the \"table_menu_list\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPLTJNZ_TEST_5",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"Salads and Soup\", then the page should consist of an HTML heading element with text content as the value of the key \"dish_name\" received from the response within \"category_dishes\" list",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPLTJNZ_TEST_6",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"Salads and Soup\", then the page should consist of an HTML paragraph element with text content as the value of the key \"dish_currency\" and \"dish_price\" received from the response within \"category_dishes\" list",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPLTJNZ_TEST_7",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"Salads and Soup\", then the page should consist of an HTML paragraph element with text content as the value of the key \"dish_description\" received from the response within \"category_dishes\" list",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPLTJNZ_TEST_8",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"Salads and Soup\", then the page should consist of an HTML paragraph element with text content as the value of the key \"dish_calories\" received from the response within \"category_dishes\" list",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPLTJNZ_TEST_9",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"Salads and Soup\", then the page should consist of an HTML image element with src as the value of the key \"dish_image\" received from the response within \"category_dishes\" list",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPLTJNZ_TEST_10",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful, then the page should initially consist of an HTML paragraph elements to display the count of each dish quantity with text content as \"0\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPLTJNZ_TEST_11",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful, then the page should consist of an HTML button element with text content as \"-\" which refers decrement",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPLTJNZ_TEST_12",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful, then the page should consist of an HTML button element with text content as \"+\" which refers increment",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPLTJNZ_TEST_13",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"From the Barnyard\", then the page should consist of an HTML heading element with text content as the value of the key \"dish_name\" received from the response within \"category_dishes\" list",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPLTJNZ_TEST_14",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"From the Barnyard\", then the page should consist of an HTML paragraph element with text content as the value of the key \"dish_currency\" and \"dish_price\" received from the response within \"category_dishes\" list",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPLTJNZ_TEST_15",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"From the Barnyard\", then the page should consist of an HTML paragraph element with text content as the value of the key \"dish_description\" received from the response within \"category_dishes\" list",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPLTJNZ_TEST_16",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"From the Barnyard\", then the page should consist of an HTML paragraph element with text content as the value of the key \"dish_calories\" received from the response within \"category_dishes\" list",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPLTJNZ_TEST_17",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"From the Barnyard\", then the page should consist of an HTML image element with src as the value of the key \"dish_image\" received from the response within \"category_dishes\" list",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPLTJNZ_TEST_18",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"From the Hen House\", then the page should initially consist of an HTML paragraph elements to display the count of each dish quantity with text content as \"0\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPLTJNZ_TEST_19",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"From the Hen House\", then the page should consist of an HTML button element with text content as \"-\" which refers decrement",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPLTJNZ_TEST_20",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"From the Hen House\", then the page should consist of an HTML button element with text content as \"+\" which refers increment",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPLTJNZ_TEST_21",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"Fresh From The Sea\", then the page should consist of an HTML heading element with text content as the value of the key \"dish_name\" received from the response within \"category_dishes\" list",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPLTJNZ_TEST_22",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"Biryani\", then the page should consist of an HTML heading element with text content as the value of the key \"dish_name\" received from the response within \"category_dishes\" list",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPLTJNZ_TEST_23",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"Fast Food\", then the page should consist of an HTML paragraph element with text content as \"Customizations available\" as the key \"addonCat\" has the values received from the response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPLTJNZ_TEST_24",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"Biryani\", then the page should not consist of an HTML paragraph element with text content as \"Customizations available\" as the key \"addonCat\" has no values received from the response ",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPLTJNZ_TEST_25",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"Biryani\", then the page should consist of an HTML paragraph element with text content as \"Not available\" as one of the keys \"dish_Availability\" has the value \"false\" received from the response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPLTJNZ_TEST_26",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"Fast Food\", then the page should not consist of an HTML paragraph element with text content as \"Not available\" as all \"dish_Availability\" keys has the value \"true\" received from the response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPLTJNZ_TEST_27",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"Fresh From The Sea\", then the page should not consist of an HTML button elements with text content as \"-\" and \"+\" along with its quantity as all \"dish_Availability\" keys has the value \"false\" received from the response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPLTJNZ_TEST_28",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"Salads and Soup\", and when the \"+\" button in the Page is clicked, then the particular \"dish quantity\" count and \"cart count\" should be incremented by one",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPLTJNZ_TEST_29",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"Salads and Soup\", and when the \"-\" button in the Page is clicked after the \"+\" button is clicked, then the particular \"dish quantity\" count and \"cart count\" should be decremented by one",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPLTJNZ_TEST_30",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request is successful and the active \"menu_category\" is \"Salads and Soup\", and when the \"-\" button in the Page is clicked initially, then the \"dish quantity\" count or \"cart count\" should not be decremented by one",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPLTJNZ_TEST_31",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"+\" and \"-\" buttons in the Page is clicked for multiple dishes, then the total \"dish quantity\" count should be displayed as the cart count",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPLTJNZ_TEST_32",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"menu_category\" is \"From the Barnyard\" and \"+\" and \"-\" buttons is clicked for multiple dishes, then the total \"dish quantity\" count should be displayed as the cart count",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPLTJNZ_TEST_33",
+      "evaluation_result": "INCORRECT",
+      "title": "When the HTTP GET request is successful, the tabs must not be hardcoded, its length should change as per API",
+      "errorMessages": [
+        "Error: Unable to find an element with the text: /Nxt Cafe/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible."
+      ]
+    }
+  ]
+}
